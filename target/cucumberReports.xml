@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.217" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Dealer Management on 99Acres Website" name="post property - Example #1.1" time="0.006">
+<system-out><![CDATA[
+Given User on 99Acres Home Page.............................................passed
+When User click on the Dealers button.......................................passed
+And user click on the post property button..................................passed
+And User add the basic details "9392679793".................................passed
+Then the property status should be updated successfully.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Dealer Management on 99Acres Website" name="post property - Example #1.2" time="0.002">
+<system-out><![CDATA[
+Given User on 99Acres Home Page.............................................passed
+When User click on the Dealers button.......................................passed
+And user click on the post property button..................................passed
+And User add the basic details "9542447478".................................passed
+Then the property status should be updated successfully.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Dealer Management on 99Acres Website" name="Dealer services" time="0.001">
+<system-out><![CDATA[
+Given User on 99Acres Home Page.............................................passed
+And User click on the Dealer services.......................................passed
+And User click Builder plans button.........................................passed
+And User click on the add your property details.............................passed
+And User click on the commercial............................................passed
+And User click on the view plans............................................passed
+Then Related plans will be visible..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Dealer Management on 99Acres Website" name="My99acres" time="0.001">
+<system-out><![CDATA[
+Given User on 99Acres Home Page.............................................passed
+When User click on Dealers..................................................passed
+And User click on Research..................................................passed
+And User go to Customer services............................................passed
+And User enter "Rental Agreement" in search by keywords box.................passed
+Then You can find queries on rental agreement below.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Dealer Management on 99Acres Website" name="Call me back" time="0.002">
+<system-out><![CDATA[
+Given User on 99Acres Home Page.............................................passed
+When User click on Dealer...................................................passed
+And User click on the Research..............................................passed
+And User go to Customer service.............................................passed
+And User click on call me back..............................................passed
+Then User can give details..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Dealer Management on 99Acres Website" name="Homeloans" time="0.001">
+<system-out><![CDATA[
+Given User on 99Acres Home Page.............................................passed
+When User click on the Dealers..............................................passed
+And User click on the Advice................................................passed
+And User click on the Customer..............................................passed
+And User click on Homeloans.................................................passed
+And User click on Banks.....................................................passed
+And User click on the getmethisdeal.........................................passed
+Then User needs to submit details...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
